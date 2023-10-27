@@ -45,7 +45,7 @@ body {
 }
 
 .menu-link {
-    margin-right: 4%;
+    margin-right: 3%;
     text-decoration: none;
     transition: all .2s ease-in-out; 
 }
@@ -63,4 +63,49 @@ body {
     border-radius: 3px;
     padding: 5px 10px;
     text-decoration: none;
+}
+
+
+.hero {
+
+}
+
+.main-header {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: #2B0236;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 80px;
+}
+
+.header-button-link {
+    font-size: 24px;
+    margin: 50px;
+    background-color: #9A54BC;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.header-button-link:hover {
+    transition: all .2s ease-in-out; 
+
+}
+
+.circles > .circles {
+
+}
+
+.circles > .big-circle {
+    position: relative;
+}
+
+.circles > .mid-circle {
+
 }
