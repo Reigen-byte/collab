@@ -52,6 +52,8 @@ body {
 
 .menu-link:hover {
     font-size: 18px ;
+    color: red;
+    text-decoration-line: underline;
 }
 
 .menu-link.last-link {
@@ -60,4 +62,5 @@ body {
     border: 2px solid #9A54BC;
     border-radius: 3px;
     padding: 5px 10px;
+    text-decoration: none;
 }
