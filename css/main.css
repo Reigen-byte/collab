@@ -1,7 +1,8 @@
 body * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 body {
@@ -25,20 +26,38 @@ body {
 }
 
 .header {
-    background-color: antiquewhite;
     width: 100%;
     height: 90px;
+    display: inline-block;
 }
 
 .logo{
     margin-left: 7%;
-    margin-top: calc(24px - 50%)
+    margin-top: 21.5px;
 }
 
 .menu {
+    width: 30%;
+    margin-top: 35px;
     float: right;
+    font-weight: bold;
+    font-size: 16px ;
 }
 
-.demo {
-    float: right;
+.menu-link {
+    margin-right: 4%;
+    text-decoration: none;
+    transition: all .2s ease-in-out; 
+}
+
+.menu-link:hover {
+    font-size: 18px ;
+}
+
+.menu-link.last-link {
+    margin-right: 0%;
+    color: #9A54BC;
+    border: 2px solid #9A54BC;
+    border-radius: 3px;
+    padding: 5px 10px;
 }
