@@ -187,3 +187,179 @@ body {
     width: 14%;
     height: auto;
 }
+
+.apps {
+
+}
+
+.apps-title {
+    margin-top: 210px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.apps > .app-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-wrap;
+    gap: 10%;
+}
+
+.app-information > .left-side {
+    margin-left: 15%;
+    width: 40%;
+}
+
+.left-side > .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px #333;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.left-side > .buttons > .button {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.left-side > .buttons > .button.button1 {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.left-side > .paragraphs > .paragraph {
+    padding: 50px 20px;
+    background-color: #F2F2F2;
+    margin-bottom: 10px;
+}
+
+.app-information > .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 15%;
+    position: relative;
+}
+
+.right-side > .phone {
+    width: 400px;
+    height: auto;
+}
+
+.right-side .phone-content {
+    position: absolute;
+    width: 280px;
+    height: 620px;
+}
+
+.right-side .phone-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.right-side .logo2 {
+    width: 80px;
+    height: auto;
+}
+
+.right-side .bell-icon {
+    transform: scale(1.2);
+}
+
+.right-side .phone-title {
+    margin-bottom: 20px;
+}
+
+.right-side .project-name {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.right-side .name-input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-side .name-input::placeholder {
+    text-align: center;
+}
+
+.right-side .project-type {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.right-side .project-list {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-side .project-list::placeholder {
+    text-align: center;
+}
+
+.right-side .add-members {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.right-side .input-and-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.right-side .member-input {
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-side .member-input::placeholder {
+    text-align: center;
+}
+
+.right-side .member-add-button {
+    text-align: center;
+    padding: 9px 27px;
+    background-color: #9A54BC;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.right-side .create-project {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 32px;
+    background-color: #9A54BC;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

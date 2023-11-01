@@ -11,6 +11,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>Collab</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 
 <body>
@@ -50,6 +51,57 @@
             <img class="image" src="./img/brand3.png" alt="Brand">
             <img class="image" src="./img/brand4.png" alt="Brand">
             <img class="image" src="./img/brand5.png" alt="Brand">
+        </div>
+    </section>
+    <section class="apps">
+        <h1 class="apps-title">How does Collab-app help?</h1>
+        <div class="app-information">
+            <div class="left-side">
+                <div class="buttons"> 
+                    <a class="button button1" href="#">Vendor App</a>
+                    <a class="button button2" href="#">Site Supervisor App</a>
+                </div>
+                <div class="paragraphs">
+                    <p class="paragraph"><b>Work/Material:</b> request: Whenever a client wants to start a work, request notifications with date and time for materials and artisians will be promted through their app.</p>
+                    <p class="paragraph"><b>Project Management:</b> Work on multiple projects...<b><a style="text-decoration: none; color: black;" href="#">see more</a></b></p>
+                    <p class="paragraph"><b>Payment:</b> Get paid for the step by step work...<b><a style="text-decoration: none; color: black;" href="#">see more</a></b></p>
+                    <p class="paragraph"><b>Tutorials:</b> Explore the video tutorials to learn... <b><a style="text-decoration: none; color: black;" href="#">see more</a></b></p>
+                </div>
+            </div>
+            <div class="right-side">
+                <img  class="phone" src="./img/phone.png" alt="Phone">
+                <div class="phone-content">
+                    <div class="phone-logo">
+                        <img class="logo2" src="./img/logo.png" alt="logo">
+                        <i class="fa fa-bell-o bell-icon" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="phone-title">Create Project</h3>
+                    <div class="project-name">
+                        <label for="name">Project Name</label>
+                        <input class="name-input" id="name" type="text" placeholder="Enter Project name">
+                    </div>
+                    <div class="project-type">
+                        <label for="type">Project Type</label>
+                        <input class="project-list" id="type" list="types" placeholder="Select Project type">
+                        <datalist id="types">
+                            <option value="Option 1">
+                            <option value="Option 2">
+                            <option value="Option 3">
+                            <option value="Option 4">
+                            <option value="Option 5">
+                        </datalist>
+                    </div>
+                    <div class="add-members">
+                        <label for="members">Add members (Optional)</label>
+                        <hr>
+                        <div class="input-and-button">
+                            <input class="member-input" id="members" type="text" placeholder="Enter Collab id">
+                            <a class="member-add-button" href="#">Add</a>
+                        </div>
+                    </div>
+                    <a class="create-project" href="#">Create Project</a>
+                </div>
+            </div>
         </div>
     </section>
 </body>
