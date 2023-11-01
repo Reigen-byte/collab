@@ -147,9 +147,43 @@ body {
     height: 40px;
     background-color: #fff;
     border: 3px solid #9A54BC;
+    border-radius: 5px;
     text-decoration: none;
     top: 550px;
     color: #9A54BC;
     font-weight: bold;
     font-size: 16px;
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 850px;
+}
+
+.brands > .brands-title {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.brands > .brand-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    margin-top: 75px;
+}
+
+.brands .image {
+    width: 7%;
+    height: auto;
+}
+
+.brands .image:last-child {
+    width: 14%;
+    height: auto;
 }
