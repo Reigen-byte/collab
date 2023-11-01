@@ -28,24 +28,25 @@ body {
 .header {
     width: 100%;
     height: 90px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{
-    margin-left: 7%;
+    margin-left: 5%;
     margin-top: 21.5px;
 }
 
 .menu {
     width: 30%;
     margin-top: 35px;
-    float: right;
     font-weight: bold;
     font-size: 16px ;
+    order: 2;
 }
 
 .menu-link {
-    margin-right: 4%;
+    margin-right: 3%;
     text-decoration: none;
     transition: all .2s ease-in-out; 
 }
@@ -63,4 +64,92 @@ body {
     border-radius: 3px;
     padding: 5px 10px;
     text-decoration: none;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: #2B0236;
+}
+
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 15px 30px;
+    background-color: #9A54BC;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.header-button-link:hover {
+
+}
+
+.forms-combination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.forms {
+    position: absolute;
+}
+
+.forms-combination > .big-circle {
+    width: 700px;
+    height: 700px;
+    background-color: #F5E1FF4D;
+    border-radius: 50%;
+}
+
+.forms-combination  > .mid-circle {
+    width: 415px;
+    height: 415px;
+    background-color: #F5E1FFCC;
+    border-radius: 50%;
+    top: 40px;
+}
+
+.forms-combination > .square {
+    width: 235px;
+    height: 425px;
+    background-color: #fff;
+    border: 3px solid #9A54BC;
+    border-radius: 10px;
+    top: 60px;
+}
+
+.forms-combination > .logo {
+    top: 220px;
+}
+
+.forms-combination > .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 40px;
+    background-color: #fff;
+    border: 3px solid #9A54BC;
+    text-decoration: none;
+    top: 550px;
+    color: #9A54BC;
+    font-weight: bold;
+    font-size: 16px;
 }
