@@ -210,7 +210,7 @@ body {
 
 .app-information > .left-side {
     margin-left: 15%;
-    width: 40%;
+    width: 30%;
 }
 
 .left-side > .buttons {
@@ -361,5 +361,62 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+    font-weight: bold;
+}
+
+.projects-done > .budget-friendly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-friendly .budget-friendly-title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.budget-friendly .budget-friendly-paragraph {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.collab-projects .title {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.collab-projects .listings {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.listings .image {
+    width: 400px;
+    height: auto;
+}
+
+.listings .paragraph1 {
+    color: #60267F;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.listings .paragraph2 {
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-bottom: 7%;
     font-weight: bold;
 }
