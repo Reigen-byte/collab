@@ -617,6 +617,7 @@ input[type="checkbox"]:checked + .slider:before {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 120px;
 }
 
 .feedback .photo {
@@ -627,3 +628,46 @@ input[type="checkbox"]:checked + .slider:before {
 .feedback .name {
     font-size: 18px;
 }
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9A54BC;
+    padding: 200px;
+}
+
+.download > .title {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.download > .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons > .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #9A54BC;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.buttons > .button:first-child {
+    color: #9A54BC;
+    background-color: #fff;
+}
+
