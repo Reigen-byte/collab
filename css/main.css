@@ -700,3 +700,86 @@ input[type="checkbox"]:checked + .slider:before {
 .map .number {
     font-size: 22px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.footer .footer-information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer .social-platforms {
+    width: 25%;
+}
+
+.footer .social-platforms > .logo {
+    margin: 0 0 25px 0;
+}
+
+.footer .description {
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.platforms > .platforms-header {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.platforms .icon {
+    width: 40px;
+    height: auto;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.company-info {
+    width: 45%;
+}
+
+.company-info .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.company-info .options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.company-info .company-header {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.company-info .link {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #60267F;
+}
+
+.company-info .contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+.lower-page {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 30px;
+    background-color: #60267F;
+}
