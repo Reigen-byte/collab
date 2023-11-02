@@ -420,3 +420,152 @@ body {
     margin-bottom: 7%;
     font-weight: bold;
 }
+
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:  200px;
+}
+
+.prices-description > .prices-title {
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.prices-description > .prices-choice {
+    text-align: center;
+    color: #A79D9D;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.prices .toggle {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.toggle > .monthly {
+    color: #A79D9D;
+
+}
+
+.toggle > .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.toggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .slider {
+    background-color: #56E6A5;
+}
+
+input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.toggle > .yearly {
+    font-weight: bold;
+}
+
+.toggle > .discount {
+    background-color: #FFE87A;
+}
+
+.prices > .plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.plans > .plan-choice {
+    display: flex;
+    flex-direction: column;
+    width: 334px;
+    height: 450px;
+    border: 3px solid #AAAAAA;
+    border-radius: 15px;
+    padding: 20px;
+}
+.plan-choice > .name {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.plan-choice > .price {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.plan-choice > .button {
+    background-color: #fff;
+    border: 3px solid #2B0236;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #2B0236;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.plan-choice > .list {
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+.plan-choice > .list li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.plan-choice > .list li:before {
+    content: "▶";
+    position: absolute;
+    left: -30px
+    
+}
+
+.plan-choice:last-child {
+    background-color: #56E6A5;
+}
+
+.plan-choice:last-child > .button {
+    margin-top: 30px;
+}
