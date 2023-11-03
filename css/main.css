@@ -187,3 +187,715 @@ body {
     width: 14%;
     height: auto;
 }
+
+.apps {
+
+}
+
+.apps-title {
+    margin-top: 210px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.apps > .app-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-wrap;
+    gap: 10%;
+}
+
+.app-information > .left-side {
+    margin-left: 15%;
+    width: 30%;
+}
+
+.left-side > .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px #333;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.left-side > .buttons > .button {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    flex-grow: 1;
+    text-align: center;
+    border: 0;
+}
+
+.left-side > .buttons > .button.button1 {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.left-side > .buttons > .button.button2 {
+    background-color: #fff;
+    color: #9A54BC;
+}
+
+.left-side > .paragraphs > .paragraph {
+    padding: 50px 20px;
+    background-color: #F2F2F2;
+    margin-bottom: 10px;
+}
+
+.app-information > .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 15%;
+    position: relative;
+}
+
+.right-side > .phone {
+    width: 400px;
+    height: auto;
+}
+
+.right-side .phone-content {
+    position: absolute;
+    width: 280px;
+    height: 620px;
+}
+
+.right-side .phone-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.right-side .logo2 {
+    width: 80px;
+    height: auto;
+}
+
+.right-side .bell-icon {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.right-side .phone-title {
+    margin-bottom: 20px;
+}
+
+.right-side .project-name {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.right-side .name-input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-side .name-input::placeholder {
+    text-align: center;
+}
+
+.right-side .project-type {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.right-side .project-list {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-side .project-list::placeholder {
+    text-align: center;
+}
+
+.right-side .add-members {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.right-side .input-and-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.right-side .member-input {
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.right-side .member-input::placeholder {
+    text-align: center;
+}
+
+.right-side .member-add-button {
+    text-align: center;
+    padding: 9px 27px;
+    background-color: #9A54BC;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.right-side .create-project {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 32px;
+    background-color: #9A54BC;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.projects-done > .budget-friendly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-friendly .budget-friendly-title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.budget-friendly .budget-friendly-paragraph {
+    width: 70%;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.collab-projects .title {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.collab-projects .listings {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.listings .image {
+    width: 400px;
+    height: auto;
+}
+
+.listings .paragraph1 {
+    color: #60267F;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.listings .paragraph2 {
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    font-weight: bold;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:  200px;
+}
+
+.prices-description > .prices-title {
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.prices-description > .prices-choice {
+    text-align: center;
+    color: #A79D9D;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.prices .toggle {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.toggle > .monthly {
+    color: #A79D9D;
+
+}
+
+.toggle > .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.toggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .slider {
+    background-color: #56E6A5;
+}
+
+input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.toggle > .yearly {
+    font-weight: bold;
+}
+
+.toggle > .discount {
+    background-color: #FFE87A;
+}
+
+.prices > .plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.plans > .plan-choice {
+    display: flex;
+    flex-direction: column;
+    width: 334px;
+    height: 450px;
+    border: 3px solid #AAAAAA;
+    border-radius: 15px;
+    padding: 20px;
+}
+.plan-choice > .name {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.plan-choice > .price {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.plan-choice > .button {
+    background-color: #fff;
+    border: 3px solid #2B0236;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #2B0236;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.plan-choice > .list {
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+.plan-choice > .list li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.plan-choice > .list li:before {
+    content: "▶";
+    position: absolute;
+    left: -30px
+    
+}
+
+.plan-choice:last-child {
+    background-color: #56E6A5;
+}
+
+.plan-choice:last-child > .button {
+    margin-top: 30px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E2BDF21C;
+    margin-top: 60px;
+}
+
+.feedback > .rating {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+}
+
+.feedback > .rating > .star {
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+}
+
+.feedback > .reviews {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.feedback .arrow {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+
+.feedback .review {
+    width: 60%;
+    height: 250px;
+    padding: 80px 0px;
+    font-size: 23px;
+}
+
+.feedback > .reviewer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.feedback .photo {
+    width: 100px;
+    height: auto;
+}
+
+.feedback .name {
+    font-size: 18px;
+}
+
+.join-us .join-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-us .join-header {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 38px;
+    color: #2B0236;
+}
+
+.join-us .join-paragraph {
+    width: 60%;
+    font-size: 23px;
+    text-align: center;
+}
+
+.join-us .line-button {
+    position: absolute;
+    background-color: #9A54BC;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    right: -100px;
+    cursor: pointer;
+}
+
+.join-us > .line {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.join-us .dotted-line {
+    width: 80%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.join-us .pictures {
+    position: relative;
+}
+
+.join-us .image {
+    width: 100px;
+    height: auto;
+    position: absolute;
+}
+
+.join-us .image1 {
+    right: 690px;
+    top: -34px;
+}
+
+.join-us .image2 {
+    right: 500px;
+    bottom: -300px;
+}
+
+.join-us .image3 {
+    right: 240px;
+    bottom: -250px;
+}
+
+.join-us .image4 {
+    right: 55px;
+    bottom: -380px;
+}
+
+.join-us .image5 {
+    left: 60px;
+    top: 295px;
+}
+
+.join-us .image6 {
+    left: 415px;
+    top: 270px;
+}
+
+.join-us .image7 {
+    left: 625px;
+    top: 255px;
+}
+
+.join-us .image8 {
+    left: 670px;
+    top: 105px;
+}
+
+.join-us .image9 {
+    font-size: 23px;
+    color: #9A54BC;
+    left: 530px;
+    top: 90px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9A54BC;
+    padding: 200px;
+}
+
+.download > .title {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.download > .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons > .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #9A54BC;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.buttons > .button:first-child {
+    color: #9A54BC;
+    background-color: #fff;
+}
+
+.map {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E2BDF21C;
+    
+}
+
+.map > .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.map .questions {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.map .email {
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+.map .number {
+    font-size: 22px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.footer .footer-information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer .social-platforms {
+    width: 25%;
+}
+
+.footer .social-platforms > .logo {
+    margin: 0 0 25px 0;
+}
+
+.footer .description {
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+.platforms > .platforms-header {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.platforms .icon {
+    width: 40px;
+    height: auto;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.company-info {
+    width: 45%;
+}
+
+.company-info .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.company-info .options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.company-info .company-header {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.company-info .link {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #60267F;
+}
+
+.company-info .contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.lower-page {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 30px;
+    background-color: #60267F;
+}

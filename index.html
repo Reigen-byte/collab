@@ -11,6 +11,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>Collab</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 
 <body>
@@ -51,6 +52,235 @@
             <img class="image" src="./img/brand4.png" alt="Brand">
             <img class="image" src="./img/brand5.png" alt="Brand">
         </div>
+    </section>
+    <section class="apps">
+        <h1 class="apps-title">How does Collab-app help?</h1>
+        <div class="app-information">
+            <div class="left-side">
+                <div class="buttons"> 
+                    <a class="button button1" href="#">Vendor App</a>
+                    <a class="button button2" href="#">Site Supervisor App</a>
+                </div>
+                <div class="paragraphs">
+                    <p class="paragraph"><b>Work/Material:</b> request: Whenever a client wants to start a work, request notifications with date and time for materials and artisians will be promted through their app.</p>
+                    <p class="paragraph"><b>Project Management:</b> Work on multiple projects...<b><a style="text-decoration: none; color: black;" href="#">see more</a></b></p>
+                    <p class="paragraph"><b>Payment:</b> Get paid for the step by step work...<b><a style="text-decoration: none; color: black;" href="#">see more</a></b></p>
+                    <p class="paragraph"><b>Tutorials:</b> Explore the video tutorials to learn... <b><a style="text-decoration: none; color: black;" href="#">see more</a></b></p>
+                </div>
+            </div>
+            <div class="right-side">
+                <img  class="phone" src="./img/phone.png" alt="Phone">
+                <div class="phone-content">
+                    <div class="phone-logo">
+                        <img class="logo2" src="./img/logo.png" alt="logo">
+                        <i class="fa fa-bell-o bell-icon" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="phone-title">Create Project</h3>
+                    <div class="project-name">
+                        <label for="name">Project Name</label>
+                        <input class="name-input" id="name" type="text" placeholder="Enter Project name">
+                    </div>
+                    <div class="project-type">
+                        <label for="type">Project Type</label>
+                        <input class="project-list" id="type" list="types" placeholder="Select Project type">
+                        <datalist id="types">
+                            <option value="Option 1">
+                            <option value="Option 2">
+                            <option value="Option 3">
+                            <option value="Option 4">
+                            <option value="Option 5">
+                        </datalist>
+                    </div>
+                    <div class="add-members">
+                        <label for="members">Add members (Optional)</label>
+                        <hr>
+                        <div class="input-and-button">
+                            <input class="member-input" id="members" type="text" placeholder="Enter Collab id">
+                            <a class="member-add-button" href="#">Add</a>
+                        </div>
+                    </div>
+                    <a class="create-project" href="#">Create Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-done">
+        <div class="budget-friendly">
+            <h1 class="budget-friendly-title">Fastest, Safest & Budget friendly</h1>
+            <p class="budget-friendly-paragraph">Managing your projects on spreadsheet  or messaging app is a time-taking and inefficient way.They can't link various project data effectively at once place , thus you won't be able to avoid project cost escalation effectively .</p>
+            <iframe width="1280" height="600" src="https://www.youtube.com/embed/-JWAo15gF2Q" title="Why I hate mimes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="collab-projects">
+            <h1 class="title">Projects done on Collab</h1>
+            <div class="listings">
+                <div class="builders">
+                    <img class="listings image" src="./img/builders.png" alt="Builders">
+                    <p class="listings paragraph1">Builders</p>
+                    <p class="listings paragraph2">100+</p>
+                </div>
+                <div class="contractors">
+                    <img class="listings image" src="./img/contractors.png" alt="Contractors">
+                    <p class="listings paragraph1">Contractors</p>
+                    <p class="listings paragraph2">50+</p>
+                </div>
+                <div class="firm">
+                    <img class="listings image" src="./img/firm.png" alt="Design Build Firm">
+                    <p class="listings paragraph1">Design Build Firm</p>
+                    <p class="listings paragraph2">30+</p>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section class="prices">
+        <div class="prices-description">
+            <h1 class="prices-title">Ready to start with Collab apps?</h1>
+            <p class="prices-choice">Choose the package that suits you.</p>
+            <div class="toggle">
+                <p class="monthly">Monthly</p>
+                <div class="toggle-switch">
+                    <input id="toggle" type="checkbox">
+                    <label for="toggle" class="slider"></label>
+                </div>
+                <p class="yearly">Yearly</p>
+                <p class="discount">10% discount</p>
+            </div>
+        </div>
+        <div class="plans">
+            <div class="plan-choice">
+                <h6 class="name">Basic</h6>
+                <h1 class="price">Rs.5000</h1>
+                <a class="button" href="#">Request Demo</a>
+                <ol class="list">
+                    <li class="list listing">Create BoQ</li>
+                    <li class="list listing">Release Purchase Orders</li>
+                    <li class="list listing">Cash flow analysis</li>
+                </ol>
+            </div>
+            <div class="plan-choice">
+                <h6 class="name">Essential</h6>
+                <h1 class="price">Rs.5000</h1>
+                <a class="button" href="#">Request Demo</a>
+                <ol class="list">
+                    <li class="list listing">Create BoQ</li>
+                    <li class="list listing">Release Purchase Orders</li>
+                    <li class="list listing">Cash flow analysis</li>
+                    <li class="list listing">Vendor App</li>
+                    <li class="list listing">Site Engineer App</li>
+                    <li class="list listing">Client App</li>
+                </ol>
+            </div>
+            <div class="plan-choice">
+                <h6 class="name">Enterprise</h6>
+                <h1 class="price">Contact <br> sales <br> team</h1>
+                <a class="button" href="#">Request Demo</a>
+                <p class="plan-description">Unlock the full power to work effectively. Click “Request Demo” now.</p>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="rating">
+            <img class="star star1" src="./img/star-full.png" alt="Rating1">
+            <img class="star star2" src="./img/star-full.png" alt="Rating2">
+            <img class="star star3" src="./img/star-full.png" alt="Rating3">
+            <img class="star star4" src="./img/star-full.png" alt="Rating4">
+            <img class="star star5" src="./img/star-empty.png" alt="Rating5">
+        </div>
+        <div class="reviews">
+            <img class="arrow left" src="/img/left-arrow.png" alt="arrow-left">
+            <p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi, nisl eget tristique molestie. Quisque pharetra tincidunt interdum nunc, ac eget nisi, lectus interdum. Cras aliquet curabitur in morbi facilisi imperdiet non sollicitudin. Molestie volutpat vulputate eu nunc in vulputate sit. Varius neque accumsan libero, augue tortor. Id metus rutrum fringilla nibh neque, at bibendum. Diam libero morbi aliquet mi gravida velit enim.</p>
+            <img class="arrow right" src="/img/right-arrow.png" alt="arrow-right">
+        </div>
+        <div class="reviewer">
+            <img class="photo" src="/img/reviewer-photo.png" alt="reviewer-photo">
+            <p class="name">Designation</p>
+        </div>
+    </section>
+    <section class="join-us">
+        <div class="join-description">
+            <h1 class="join-header">Join us</h1>
+            <p class="join-paragraph">At Staart, we’re all about delivering better experiences for our customers. Join our team to make impact on the next billion users in the construction industry</p>
+        </div>
+        <div class="line">
+            <div class="pictures">
+                <button class="line-button">Explore Oppurtunities</button>
+                <img class="image image1" src="./img/picture1.png" alt="Picture1">
+                <img class="image image2" src="./img/picture2.png" alt="Picture2">
+                <img class="image image3" src="./img/picture3.png" alt="Picture3">
+                <img class="image image4" src="./img/picture4.png" alt="Picture4">
+                <img class="image image5" src="./img/picture5.png" alt="Picture5">
+                <img class="image image6" src="./img/picture6.png" alt="Picture6">
+                <img class="image image7" src="./img/picture7.png" alt="Picture7">
+                <img class="image image8" src="./img/picture8.png" alt="Picture8">
+                <p class="image image9">You?</p>
+            </div>
+            <img class="dotted-line" src="./img/dotted-line.svg" alt="dotted-line">
+        </div>
+    </section>
+    <section class="download">
+        <h1 class="title">Download the Collab mobile apps?</h1>
+        <div class="buttons">
+            <a class="button" href="#">Try Free Demo</a>
+            <a class="button" href="#">Vendor app</a>
+            <a class="button" href="#">Site engineer app</a>
+        </div>
+    </section>
+    <section class="map">
+        <div class="contacts">
+            <h1 class="questions">Still have a question ?</h1>
+            <p class="email">Phanikondru@gmail.com</p>
+            <p class="number">9676989240</p>
+        </div>
+        <iframe
+            width="1000"
+            height="600"
+            frameborder="0"
+            style="border:0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.0743961853195!2d78.38938173162615644!3d17.448441177476035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0xd2bf5d0e5b09144c!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1650089644000!5m2!1sen!2sus"
+            allowfullscreen
+        ></iframe>
+    </section>
+    <section class="footer">
+        <div class="footer-information">
+            <div class="social-platforms">
+                <img class="logo" src="./img/logo.png" alt="Logo">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra faucibus facilisis sem eget sed amet consectetur tincidunt mauris.</p>
+                <div class="platforms">
+                    <h5 class="platforms-header">Follow us on:</h5>
+                    <div class="icons">
+                        <img class="icon" src="./img/facebook.png" alt="Facebook">
+                        <img class="icon" src="./img/linkedin.png" alt="Linkedin">
+                        <img class="icon" src="./img/instagram.png" alt="Instagram">
+                        <img class="icon" src="./img/youtube.png" alt="Youtube">
+                    </div>
+                </div>
+            </div>
+            <div class="company-info">
+                <div class="information">
+                    <div class="options">
+                        <h6 class="company-header">Company</h6>
+                        <a class="company link" href="#">About</a>
+                        <a class="company link" href="#">Product</a>
+                        <a class="company link" href="#">Team</a>
+                    </div>
+                    <div class="options">
+                        <h6 class="company-header">Resources</h6>
+                        <a class="company link" href="#">Blog</a>
+                    </div>
+                    <div class="options">
+                        <h6 class="company-header">Legal</h6>
+                        <a class="company link" href="#">Terms of Service</a>
+                        <a class="company link" href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h6 class="company-header">Contact us at:</h6>
+                    <a class="company link" href="">phanikondru@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lower-page">
+            <p class="end">@2022 Collab | All Rights Reserved</p>
     </section>
 </body>
 </html>
